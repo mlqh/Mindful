@@ -16,6 +16,8 @@ android {
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "GOOGLE_MAPS_API_KEY", "\"${GOOGLE_MAPS_API_KEY}\""
+        buildConfigField "String", "COHERE_API_KEY", "\"${COHERE_API_KEY}\""
 
         javaCompileOptions {
             annotationProcessorOptions {

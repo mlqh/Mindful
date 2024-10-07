@@ -63,5 +63,5 @@
     <string name="_00_00">00:00</string>
     <string name="_00_00_00_00">00:00/00:00</string>
 
-    <string name="google_maps_key">AIzaSyA8o7aKTaHPeWH7AYpGXgXRKrV9rkUO7O0</string>
+    <string name="google_maps_key">BuildConfig.GOOGLE_MAPS_API_KEY</string>
 </resources>
