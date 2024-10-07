@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Mindful</string>
+    <string name="title_editor">Create an Entry</string>
+    <string name="edit">Edit</string>
+    <string name="summarize">Summarize</string>
+    <string name="get_insights">Get Insights</string>
+    <string name="exit_summary">Done</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="entry_hint">Start writing here!</string>
+    <string name="select">Select</string>
+    <string name="summarizing">Summarizing…</string>
+    <string name="getting_insights">Generating Insights…</string>
+    <string name="ai_response_fail">Could not generate AI response</string>
+    <string name="three_dots">Three Dots</string>
+    <string name="calendar_view">Calendar</string>
+
+    <string name="plus_button">Plus Button</string>
+    <string name="image">Image</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="audio_record_button">Record</string>
+    <string name="audio_play_button">Audio Play Button</string>
+
+
+    <string name="settings_edit_header">Editor</string>
+    <string name="edit_lock_title">Edit lock duration</string>
+
+    <string name="ai_header">WARNING! Users under the age of 18 should consult with an adult
+        before enabling AI features. By enabling AI features, you agree to share all personal
+        information in your journal entries with third parties.
+    </string>
+    <string name="ai_title">AI Features</string>
+    <string name="ai_summary_title">AI summaries</string>
+    <string name="ai_insight_title">AI insights</string>
+
+    <string name="notifications_header">Notifications</string>
+    <string name="notification_location_title">Location-based journaling reminders</string>
+    <string name="notification_time_title">Time-based journaling reminders</string>
+    <string name="notification_backup_title">Backup reminders</string>
+
+    <string name="backup_header">Backup</string>
+    <string name="backup_create_title">Create backup</string>
+    <string name="backup_restore_title">Restore from backup</string>
+
+    <string name="lock_header">App Lock</string>
+    <string name="biometric_title">Use Biometrics</string>
+    <string name="pin_title">Set custom PIN</string>
+
+    <string name="lock_type_title">Lock type</string>
+
+    <string name="pin_prompt">Enter PIN</string>
+    <string name="incorrect_pin">Incorrect PIN</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="_00_00">00:00</string>
+    <string name="_00_00_00_00">00:00/00:00</string>
+
+    <string name="google_maps_key">AIzaSyA8o7aKTaHPeWH7AYpGXgXRKrV9rkUO7O0</string>
+</resources>

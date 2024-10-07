@@ -1,0 +1,77 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/settings_edit_header">
+        <ListPreference
+            app:defaultValue="15"
+            app:entries="@array/edit_lock_entries"
+            app:entryValues="@array/edit_lock_values"
+            app:key="edit_lock"
+            app:title="@string/edit_lock_title"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/ai_header">
+        <ListPreference
+            app:defaultValue="ai_no"
+            app:entries="@array/ai_entries"
+            app:entryValues="@array/ai_values"
+            app:key="ai"
+            app:title="@string/ai_title"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:key="ai_summary"
+            app:title="@string/ai_summary_title" />
+        <SwitchPreferenceCompat
+            app:key="ai_insight"
+            app:title="@string/ai_insight_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/notifications_header">
+        <SwitchPreferenceCompat
+            app:key="notification_location"
+            app:title="@string/notification_location_title" />
+        <SwitchPreferenceCompat
+            app:key="notification_time"
+            app:title="@string/notification_time_title" />
+        <ListPreference
+            app:defaultValue="NONE"
+            app:entries="@array/backup_entries"
+            app:entryValues="@array/backup_values"
+            app:key="notification_backup"
+            app:title="@string/notification_backup_title"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/backup_header">
+        <Preference
+            app:key="backup_create"
+            app:title="@string/backup_create_title" >
+            <intent
+                android:targetPackage="com.ece452s24g7.mindful"
+                android:targetClass="com.ece452s24g7.mindful.activities.BackupActivity"/>
+        </Preference>
+        <Preference
+            android:key="backup_restore"
+            android:title="@string/backup_restore_title"
+            app:persistent="false" >
+            <intent
+                android:targetPackage="com.ece452s24g7.mindful"
+                android:targetClass="com.ece452s24g7.mindful.activities.RestoreFromBackupActivity"/>
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/lock_header">
+        <ListPreference
+            app:defaultValue="pin_none"
+            app:entries="@array/pin_entries"
+            app:entryValues="@array/pin_values"
+            app:key="lock_type"
+            app:title="@string/lock_type_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="pin_lock"
+            app:title="@string/pin_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
